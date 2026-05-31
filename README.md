@@ -1,79 +1,79 @@
-**VR Launcher** — современный лаунчер для VR и обычных игр на Windows, разработанный на Python и PySide6.
+# 🎮 VR Launcher
 
-Проект создан для удобного управления игровой библиотекой без необходимости постоянно открывать Steam или вручную запускать игры.  
-Лаунчер автоматически обнаруживает установленные игры Steam, позволяет добавлять сторонние игры, настраивать их запуск и управлять VR-контентом из единого интерфейса.
+**VR Launcher** is a modern launcher for VR and regular games on Windows, built with Python and PySide6.
+
+The project is designed for convenient management of your game library without needing to constantly open Steam or manually launch games.  
+It automatically detects installed Steam games, allows adding third-party games, configuring launch options, and managing VR content from a single interface.
 
 ---
 
-## ✨ Возможности
+## ✨ Features
 
-### 📚 Библиотека игр
-- Автоматическое сканирование библиотек Steam
-- Отображение Steam-игр и игр, добавленных вручную
-- Большие карточки игр с изображениями и быстрым запуском
-- Сортировка и объединение всех игр в одной библиотеке
+### 📚 Game Library
+- Automatic Steam library scanning  
+- Displays Steam and manually added games  
+- Large game cards with cover images and quick launch  
+- Unified library with sorting support  
 
-### 🥽 Поддержка VR
-- Автоматическое определение VR-игр через Steam API
-- Ручная установка VR-метки для любой игры
-- Фильтр отображения только VR-игр
-- Запуск игр в VR-режиме с пользовательскими параметрами
+### 🥽 VR Support
+- Automatic VR game detection via Steam API  
+- Manual VR tagging for any game  
+- VR-only filter  
+- Launch games in VR mode with custom parameters  
 
-### ⚙️ Настраиваемый запуск
-- Поддержка собственных параметров запуска
-- Указание альтернативного исполняемого файла
-- Запуск через Steam URI
-- Настройка ожидания завершения процесса игры
+### ⚙️ Custom Launch
+- Custom launch parameters  
+- Alternative executable support  
+- Steam URI launch support  
+- Configurable process waiting behavior  
 
-### 🎨 Кастомизация
-- Пользовательские обложки для каждой игры
-- Поддержка фоновых изображений
-- Анимированные GIF-фоны
-- Автоматическое сохранение ресурсов в профиле пользователя
+### 🎨 Customization
+- Custom covers for each game  
+- Background image support  
+- Animated GIF backgrounds  
+- Automatic asset saving in user profile  
 
-### 🖥️ Управление системой
-- Переключение режима отображения экранов
-- Режим "Только основной экран"
-- Восстановление конфигурации дисплеев после игры
-- Автоматический возврат лаунчера после завершения игры
+### 🖥️ System Control
+- Display mode switching  
+- Primary screen only mode  
+- Restore display configuration after game exit  
+- Automatic return to launcher after closing games  
 
 ### 🔗 Steam Integration
-- Автоматический поиск установленного Steam
-- Поддержка нескольких библиотек Steam
-- Сканирование всех подключённых библиотек
-- Кэширование информации о VR-поддержке игр
+- Automatic Steam detection  
+- Multiple Steam library support  
+- Full library scanning  
+- VR support caching  
 
-### 🧭 Интерфейс
-- Полноэкранный современный интерфейс
-- Тёмная тема
-- Карточки игр с превью изображений
-- Удобная навигация между разделами
-
----
-
-## 🛠️ Используемые технологии
-
-- Python 3
-- PySide6 (Qt for Python)
-- Steam API
-- JSON Configuration System
-- Windows DisplaySwitch Integration
+### 🧭 Interface
+- Fullscreen modern UI  
+- Dark theme  
+- Game card-based layout  
+- Easy navigation between sections  
 
 ---
 
-## 🚀 Планы на развитие
+## 🛠️ Technologies
 
-- Система автоматических обновлений
-- Загрузка обложек из интернета
-- VR_OS модуль
-- Поддержка пользовательских профилей
-- Система категорий и коллекций
-- Интеграция с другими игровыми платформами
+- Python 3  
+- PySide6 (Qt for Python)  
+- Steam API  
+- JSON configuration system  
+- Windows DisplaySwitch integration  
+
+---
+
+## 🚀 Roadmap
+
+- Auto-updates system  
+- Online cover downloading  
+- VR_OS module  
+- User profiles support  
+- Categories and collections system  
+- Multi-platform game launcher integration  
 
 ---
 
-## 📌 Статус проекта
+## 📌 Status
 
-Проект находится в активной разработке.
-
----
+Active development
