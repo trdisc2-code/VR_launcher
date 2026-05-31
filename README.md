@@ -1,59 +1,79 @@
-# VR_launcher
-VR Launcher
+**VR Launcher** — современный лаунчер для VR и обычных игр на Windows, разработанный на Python и PySide6.
 
-VR Launcher is a modern launcher for VR and non-VR games on Windows, built with Python and PySide6.
+Проект создан для удобного управления игровой библиотекой без необходимости постоянно открывать Steam или вручную запускать игры.  
+Лаунчер автоматически обнаруживает установленные игры Steam, позволяет добавлять сторонние игры, настраивать их запуск и управлять VR-контентом из единого интерфейса.
 
-The project was created to provide a convenient way to manage your game library without constantly opening Steam or launching games manually. The launcher automatically detects installed Steam games, allows users to add custom games, configure launch options, and manage VR content from a single interface.
+---
 
-Features
-Game Library
-Automatic Steam library scanning.
-Display of both Steam games and manually added games.
-Large game cards with custom artwork and quick launch options.
-Unified game library with automatic sorting.
-VR Support
-Automatic VR game detection using the Steam API.
-Manual VR tagging for any game.
-VR-only game filtering.
-Support for launching games with custom VR startup parameters.
-Custom Launch Options
-Support for custom launch arguments.
-Ability to specify alternative executable files.
-Steam URI launch support.
-Process monitoring for automatic launcher return after a game closes.
-Customization
-Custom cover images for every game.
-Support for background images.
-Animated GIF backgrounds.
-Automatic storage of all media files in the user's profile directory.
-System Management
-Display mode switching.
-"Primary Monitor Only" mode.
-Automatic restoration of display configuration.
-Automatic launcher relaunch after exiting a game.
-Steam Integration
-Automatic Steam installation detection.
-Support for multiple Steam libraries.
-Scanning of all connected Steam library folders.
-VR support information caching.
-User Interface
-Modern fullscreen interface.
-Dark theme.
-Large game cards with image previews.
-Simple and intuitive navigation.
-Technologies Used
-Python 3
-PySide6 (Qt for Python)
-Steam API
-JSON Configuration System
-Windows DisplaySwitch Integration
-Planned Features
-Automatic update system.
-Online cover artwork downloading.
-VR_OS module.
-User profiles.
-Categories and collections.
-Integration with additional gaming platforms.
-Project Status
+## ✨ Возможности
 
-This project is currently under active development.
+### 📚 Библиотека игр
+- Автоматическое сканирование библиотек Steam
+- Отображение Steam-игр и игр, добавленных вручную
+- Большие карточки игр с изображениями и быстрым запуском
+- Сортировка и объединение всех игр в одной библиотеке
+
+### 🥽 Поддержка VR
+- Автоматическое определение VR-игр через Steam API
+- Ручная установка VR-метки для любой игры
+- Фильтр отображения только VR-игр
+- Запуск игр в VR-режиме с пользовательскими параметрами
+
+### ⚙️ Настраиваемый запуск
+- Поддержка собственных параметров запуска
+- Указание альтернативного исполняемого файла
+- Запуск через Steam URI
+- Настройка ожидания завершения процесса игры
+
+### 🎨 Кастомизация
+- Пользовательские обложки для каждой игры
+- Поддержка фоновых изображений
+- Анимированные GIF-фоны
+- Автоматическое сохранение ресурсов в профиле пользователя
+
+### 🖥️ Управление системой
+- Переключение режима отображения экранов
+- Режим "Только основной экран"
+- Восстановление конфигурации дисплеев после игры
+- Автоматический возврат лаунчера после завершения игры
+
+### 🔗 Steam Integration
+- Автоматический поиск установленного Steam
+- Поддержка нескольких библиотек Steam
+- Сканирование всех подключённых библиотек
+- Кэширование информации о VR-поддержке игр
+
+### 🧭 Интерфейс
+- Полноэкранный современный интерфейс
+- Тёмная тема
+- Карточки игр с превью изображений
+- Удобная навигация между разделами
+
+---
+
+## 🛠️ Используемые технологии
+
+- Python 3
+- PySide6 (Qt for Python)
+- Steam API
+- JSON Configuration System
+- Windows DisplaySwitch Integration
+
+---
+
+## 🚀 Планы на развитие
+
+- Система автоматических обновлений
+- Загрузка обложек из интернета
+- VR_OS модуль
+- Поддержка пользовательских профилей
+- Система категорий и коллекций
+- Интеграция с другими игровыми платформами
+
+---
+
+## 📌 Статус проекта
+
+Проект находится в активной разработке.
+
+---
